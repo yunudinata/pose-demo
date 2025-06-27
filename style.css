@@ -1,0 +1,95 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+  background-image: url('clothing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh; /* penting untuk memastikan background terlihat penuh */
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.nav-link {
+    background-color: aliceblue;
+    margin-left: 16px;
+    font-weight: 600;
+    color: rgb(109, 138, 86);
+}
+
+.nav-link:hover {
+    color: #121212;
+}
+.carousel {
+    padding-top: 61px;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card-img-top {
+    border-radius: 20px;
+    margin: auto;
+    padding: 2%;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 1px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px); /* glass effect */
+    -webkit-backdrop-filter: blur(12px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+.container-footer {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(109, 138, 86);
+    color: aliceblue;
+    text-size-adjust:2px;
+    padding: 10px;
+    
+}
+
+.center-container-about {
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px); /* glass effect */
+    justify-content: center;
+    align-items: center;
+    margin-top: 61px;
+    padding: 2%;
+}
+
